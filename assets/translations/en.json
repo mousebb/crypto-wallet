@@ -1,0 +1,303 @@
+{
+  "profile": {
+    "title": "Profile",
+    "asset_overview": "Asset Overview",
+    "manage_wallet": "Manage Wallet",
+    "transaction_history": "Transaction History",
+    "experience_zone": "Experience Zone",
+    "language": "Language",
+    "select_language": "Select Language",
+    "language_selected": "Language changed to: {}"
+  },
+  "wallet_guide": {
+    "title": "Multi-chain Wallet, Secure and Easy to Use",
+    "subtitle": "Supports mainstream public chains, EVM-compatible chains and Layer2",
+    "have_wallet": "I Have a Wallet",
+    "have_wallet_subtitle": "Import wallet, hardware wallet, multi-sig wallet",
+    "no_wallet": "I Don't Have a Wallet",
+    "no_wallet_subtitle": "Create a wallet"
+  },
+  "wallet_create_options": {
+    "title": "Creation Method",
+    "create_wallet": "Create Wallet",
+    "create_wallet_subtitle": "Create a wallet for free",
+    "cold_wallet": "Cold Wallet",
+    "cold_wallet_subtitle": "Import and use offline, ensuring isolation from the network",
+    "watch_wallet": "Watch Wallet",
+    "watch_wallet_subtitle": "Import by entering wallet address, can be used with cold wallet"
+  },
+  "import_wallet": {
+    "title": "Import Method",
+    "mnemonic_import": "Mnemonic Import",
+    "mnemonic_import_subtitle": "Import by entering mnemonic or scanning QR code",
+    "private_key_import": "Private Key Import",
+    "private_key_import_subtitle": "Import by entering private key or scanning QR code",
+    "cold_wallet": "Cold Wallet",
+    "cold_wallet_subtitle": "Import and use offline, ensuring isolation from the network",
+    "watch_wallet": "Watch Wallet",
+    "watch_wallet_subtitle": "Import by entering wallet address, can be used with cold wallet"
+  },
+  "select_network": {
+    "title": "Select Wallet Network",
+    "search": "Search",
+    "single_network_wallet": "Single Network Wallet",
+    "networks": {
+      "bitcoin": "Bitcoin",
+      "ethereum": "Ethereum",
+      "binance": "Binance Smart Chain",
+      "tron": "TRON"
+    }
+  },
+  "common": {
+    "back": "Back",
+    "next": "Next",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "copy": "Copy",
+    "paste": "Paste",
+    "scan": "Scan",
+    "search": "Search",
+    "settings": "Settings",
+    "notifications": "Notifications",
+    "dark_mode": "Dark Mode",
+    "light_mode": "Light Mode"
+  },
+  "main": {
+    "error_initializing": "Error initializing app: {}",
+    "retry": "Retry",
+    "error": "Error: {}",
+    "wallet_list": {
+      "tron": "TRON",
+      "search_hint": "Search wallet name",
+      "no_results": "No matching wallets found",
+      "not_backed_up": "Not Backed Up",
+      "switch_failed": "Failed to switch wallet: {}"
+    },
+    "wallet_options": {
+      "title": "Select Import Method",
+      "create": "Create Wallet",
+      "import": "Import Wallet",
+      "close": "Close"
+    },
+    "token_selection": {
+      "transfer_title": "Select Token to Transfer",
+      "receive_title": "Select Token to Receive",
+      "search_hint": "Search token name",
+      "get_address_failed": "Failed to get wallet address: {}"
+    }
+  },
+  "home": {
+    "wallet": "Wallet",
+    "assets": "Assets",
+    "market": "Market",
+    "trade": "Trade",
+    "discover": "Discover",
+    "profile": "Profile",
+    "loading": "Loading...",
+    "backup_now": "Backup Now",
+    "transfer": "Transfer",
+    "receive": "Receive",
+    "resources": "Resources",
+    "more_tools": "More Tools",
+    "no_assets": "No Assets",
+    "loading_assets": "Loading assets...",
+    "camera_error": "Cannot access camera: {}"
+  },
+  "create_wallet": {
+    "title": "Create Wallet",
+    "set_wallet_name": "Set Wallet Name",
+    "wallet_name_hint": "Enter wallet name",
+    "set_password": "Set Password",
+    "password_hint": "Password (minimum 8 characters)",
+    "confirm_password_hint": "Confirm Password",
+    "password_description": "Password is used to protect your private key and authorize transactions",
+    "terms_agreement": "I have read and agree to the",
+    "create_button": "Create Wallet",
+    "empty_password": "Please enter password",
+    "empty_confirm_password": "Please confirm password",
+    "password_too_short": "Password must be at least 8 characters",
+    "password_mismatch": "Passwords do not match",
+    "empty_wallet_name": "Please enter wallet name"
+  },
+  "import_method": {
+    "title": "Import Wallet",
+    "empty_import_data": "Please enter mnemonic or private key",
+    "import_data_hint": "Enter mnemonic or private key",
+    "set_wallet_name": "Set Wallet Name",
+    "wallet_name_hint": "Enter wallet name",
+    "set_password": "Set Password",
+    "password_hint": "Password (minimum 8 characters)",
+    "confirm_password_hint": "Confirm Password",
+    "agree_terms": "I have read and agree to the",
+    "terms_of_service": "Terms of Service",
+    "import_wallet": "Import Wallet",
+    "password_mismatch": "Passwords do not match"
+  },
+  "mnemonic_display": {
+    "error": "Failed to load wallet data",
+    "retry": "Retry",
+    "title": "Backup Mnemonic",
+    "instruction": "Please write down these words in order",
+    "copy_mnemonic": "Copy Mnemonic",
+    "wallet_address": "Wallet Address",
+    "private_key": "Private Key",
+    "backup_complete": "Backup Complete",
+    "backup_later": "Backup Later",
+    "mnemonic": "Mnemonic",
+    "copied": "{} copied",
+    "backup_error": "Failed to mark backup as complete: {}",
+    "skip_dialog": {
+      "title": "Skip Backup?",
+      "message": "If you lose your mnemonic phrase, you will lose access to your wallet. Are you sure you want to skip the backup?",
+      "skip": "Skip",
+      "backup": "Backup Now"
+    },
+    "exit_dialog": {
+      "title": "Exit Backup?",
+      "message": "If you exit now, you will need to backup your mnemonic phrase later. Are you sure you want to exit?",
+      "cancel": "Cancel",
+      "confirm": "Exit"
+    }
+  },
+  "mnemonic_notice": {
+    "title": "Mnemonic Backup",
+    "warning_title": "Important Notice",
+    "warning_description": "Please read carefully before proceeding",
+    "warning_item1_title": "Security",
+    "warning_item1_description": "Keep your mnemonic phrase secure",
+    "warning_item2_title": "Warning",
+    "warning_item2_description": "Never share your mnemonic phrase",
+    "warning_item3_title": "Backup",
+    "warning_item3_description": "Make sure to backup your mnemonic phrase",
+    "understand_loss": "I understand that if I lose my mnemonic phrase, my wallet cannot be recovered",
+    "understand_sharing": "I understand the risks of sharing my mnemonic phrase",
+    "next_button": "Next",
+    "later_button": "Backup Later"
+  },
+  "mnemonic_page": {
+    "title": "Backup Wallet",
+    "instruction": "Write down these 12 words in order and keep them safe. They are the only way to recover your wallet if you lose your device.",
+    "warning": "Never share your recovery phrase with anyone. Anyone with these words can access your wallet and funds.",
+    "show_mnemonic": "Show Recovery Phrase",
+    "copy_mnemonic": "Copy to Clipboard",
+    "copied": "Recovery phrase copied to clipboard",
+    "confirm_backup": "Confirm Backup",
+    "backup_updated": "Wallet backup confirmed successfully",
+    "backup_error": "Failed to update backup status: {}"
+  },
+  "token_detail": {
+    "title": "Token Details",
+    "usd_value": "≈ ${} USD",
+    "frozen": "Frozen",
+    "market_price": "Market Price",
+    "price_usd": "${} USD",
+    "all": "All",
+    "incoming": "Incoming",
+    "outgoing": "Outgoing",
+    "transfer": "Transfer",
+    "receive": "Receive",
+    "no_transactions": "No transactions found?",
+    "view_explorer": "View in Explorer",
+    "transaction_history": "Transaction History",
+    "transaction_type": "Transaction Type",
+    "transaction_status": "Status",
+    "transaction_amount": "Amount",
+    "transaction_timestamp": "Time",
+    "transaction_success": "Success",
+    "transaction_failed": "Failed",
+    "received": "Received",
+    "sent": "Sent",
+    "success": "Success"
+  },
+  "transfer": {
+    "title": "Transfer",
+    "receive_address": "Receive Address",
+    "address_hint": "Enter or long press to paste address",
+    "amount": "Amount",
+    "available": "Available {} {}",
+    "amount_hint": "Enter {} amount",
+    "all": "All",
+    "network_fee": "Network Fee",
+    "estimated": "Estimated",
+    "confirm": "Confirm",
+    "address_scanned": "Address scanned successfully",
+    "scan_qr_hint": "Position QR code within the frame to scan",
+    "qr_scan_hint": "Position QR code within the frame to scan"
+  },
+  "wallet_detail": {
+    "title": "Wallet Details",
+    "default_name": "My Wallet",
+    "fingerprint_payment": "Fingerprint Payment",
+    "not_enabled": "Not Enabled",
+    "change_password": "Change Password",
+    "reset_password": "Reset Password",
+    "backup_mnemonic": "Backup Mnemonic",
+    "export_private_key": "Export Private Key",
+    "permission_management": "Permission Management",
+    "whitelist": "Whitelist",
+    "delete": "Delete Wallet",
+    "mnemonic_error": "Failed to load mnemonic: {}",
+    "not_backed_up": "Not Backed Up",
+    "wallet_address": "Wallet Address",
+    "copied": "Copied",
+    "edit_name": {
+      "title": "Edit Wallet Name",
+      "hint": "Enter wallet name",
+      "cancel": "Cancel",
+      "confirm": "Save",
+      "empty_error": "Wallet name cannot be empty",
+      "success": "Wallet name updated successfully",
+      "error": "Failed to update wallet name: {}"
+    },
+    "delete_dialog": {
+      "title": "Delete Wallet",
+      "message": "Are you sure you want to delete this wallet? This action cannot be undone.",
+      "password_hint": "Enter wallet password",
+      "password_error": "Incorrect password",
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+    }
+  },
+  "private_key": {
+    "title": "Private Key",
+    "warning": "Warning",
+    "warning_description": "Never share your private key with anyone. Anyone with your private key has full control of your wallet.",
+    "private_key": "Private Key",
+    "close": "Close",
+    "copied": "Private key copied to clipboard"
+  },
+  "receive": {
+    "title": "Receive",
+    "scan_qr": "Scan QR code to pay me",
+    "supported_token": "Only supports {} transfers",
+    "wallet_address": "Wallet Address",
+    "address_copied": "Wallet address copied",
+    "warning": "Note: Please confirm the token you are transferring is correct. Incorrect token transfers may not be recoverable."
+  },
+  "trade": {
+    "title": "Transit",
+    "from": "From",
+    "to": "To",
+    "balance": "Balance {0}",
+    "market": "Market",
+    "enter_amount": "Please enter exchange amount",
+    "exchange_rate": "Exchange Rate",
+    "min_received": "Min Received",
+    "slippage": "Slippage",
+    "fee": "Fee",
+    "route": "Route"
+  },
+  "market": {
+    "volume_24h": "24h Volume",
+    "market_cap": "Market Cap",
+    "total_supply": "Total Supply",
+    "holders": "Holders",
+    "k_line": "K-Line",
+    "depth": "Depth",
+    "info": "Info",
+    "no_data": "No Data",
+    "coming_soon": "Coming Soon",
+    "timeout_error": "Request timed out. Please try again",
+    "fetch_error": "Failed to fetch data. Please try again"
+  }
+} 

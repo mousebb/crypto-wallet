@@ -1,0 +1,303 @@
+{
+  "profile": {
+    "title": "我的",
+    "asset_overview": "资产总览",
+    "manage_wallet": "钱包管理",
+    "transaction_history": "交易历史",
+    "experience_zone": "体验专区",
+    "language": "语言",
+    "select_language": "选择语言",
+    "language_selected": "语言已切换为: {}"
+  },
+  "wallet_guide": {
+    "title": "多链钱包，安全好用",
+    "subtitle": "支持主流公链、EVM兼容链及Layer2",
+    "have_wallet": "我有钱包",
+    "have_wallet_subtitle": "导入钱包、硬件钱包、多签钱包",
+    "no_wallet": "我没有钱包",
+    "no_wallet_subtitle": "创建钱包"
+  },
+  "wallet_create_options": {
+    "title": "创建方式",
+    "create_wallet": "创建钱包",
+    "create_wallet_subtitle": "免费创建钱包",
+    "cold_wallet": "冷钱包",
+    "cold_wallet_subtitle": "离线导入与使用，确保与网络隔绝",
+    "watch_wallet": "观察钱包",
+    "watch_wallet_subtitle": "输入钱包地址即可导入，可配合冷钱包使用"
+  },
+  "import_wallet": {
+    "title": "导入方式",
+    "mnemonic_import": "助记词导入",
+    "mnemonic_import_subtitle": "通过输入助记词或扫描二维码进行导入",
+    "private_key_import": "私钥导入",
+    "private_key_import_subtitle": "通过输入明文私钥或扫描二维码进行导入",
+    "cold_wallet": "冷钱包",
+    "cold_wallet_subtitle": "离线导入与使用，确保与网络隔绝",
+    "watch_wallet": "观察钱包",
+    "watch_wallet_subtitle": "输入钱包地址即可导入，可配合冷钱包使用"
+  },
+  "select_network": {
+    "title": "请选择钱包网络",
+    "search": "搜索",
+    "single_network_wallet": "单网络钱包",
+    "networks": {
+      "bitcoin": "Bitcoin",
+      "ethereum": "Ethereum",
+      "binance": "Binance Smart Chain",
+      "tron": "TRON"
+    }
+  },
+  "common": {
+    "back": "返回",
+    "next": "下一步",
+    "confirm": "确认",
+    "cancel": "取消",
+    "copy": "复制",
+    "paste": "粘贴",
+    "scan": "扫描",
+    "search": "搜索",
+    "settings": "设置",
+    "notifications": "通知",
+    "dark_mode": "深色模式",
+    "light_mode": "浅色模式"
+  },
+  "main": {
+    "error_initializing": "应用初始化错误: {}",
+    "retry": "重试",
+    "error": "错误: {}",
+    "wallet_list": {
+      "tron": "波场",
+      "search_hint": "搜索钱包名称",
+      "no_results": "没有找到匹配的钱包",
+      "not_backed_up": "未备份",
+      "switch_failed": "切换钱包失败: {}"
+    },
+    "wallet_options": {
+      "title": "选择添加方式",
+      "create": "创建钱包",
+      "import": "导入钱包",
+      "close": "关闭"
+    },
+    "token_selection": {
+      "transfer_title": "选择转账代币",
+      "receive_title": "选择收款代币",
+      "search_hint": "请输入代币名称进行搜索",
+      "get_address_failed": "获取钱包地址失败: {}"
+    }
+  },
+  "home": {
+    "wallet": "钱包",
+    "assets": "资产",
+    "market": "行情",
+    "trade": "交易",
+    "discover": "发现",
+    "profile": "我的",
+    "loading": "加载中...",
+    "backup_now": "立即备份",
+    "transfer": "转账",
+    "receive": "收款",
+    "resources": "资源",
+    "more_tools": "更多工具",
+    "no_assets": "暂无资产",
+    "loading_assets": "正在加载资产...",
+    "camera_error": "无法访问相机: {}"
+  },
+  "create_wallet": {
+    "title": "创建钱包",
+    "set_wallet_name": "设置钱包名称",
+    "wallet_name_hint": "请输入钱包名称",
+    "set_password": "设置密码",
+    "password_hint": "密码不少于8位",
+    "confirm_password_hint": "确认密码",
+    "password_description": "密码用于保护私钥和授权交易",
+    "terms_agreement": "我已阅读并同意",
+    "create_button": "创建钱包",
+    "empty_password": "请输入密码",
+    "empty_confirm_password": "请确认密码",
+    "password_too_short": "密码长度不能少于8位",
+    "password_mismatch": "两次输入的密码不一致",
+    "empty_wallet_name": "请输入钱包名称"
+  },
+  "import_method": {
+    "title": "导入钱包",
+    "empty_import_data": "请输入助记词或私钥",
+    "import_data_hint": "请输入助记词或私钥",
+    "set_wallet_name": "设置钱包名称",
+    "wallet_name_hint": "请输入钱包名称",
+    "set_password": "设置密码",
+    "password_hint": "密码不少于8位",
+    "confirm_password_hint": "确认密码",
+    "agree_terms": "我已仔细阅读并同意",
+    "terms_of_service": "《用户协议》",
+    "import_wallet": "导入钱包",
+    "password_mismatch": "两次输入的密码不一致"
+  },
+  "mnemonic_display": {
+    "error": "加载钱包数据失败",
+    "retry": "重试",
+    "title": "备份助记词",
+    "instruction": "请按顺序抄写下这些单词",
+    "copy_mnemonic": "复制助记词",
+    "wallet_address": "钱包地址",
+    "private_key": "私钥",
+    "backup_complete": "备份完成",
+    "backup_later": "稍后备份",
+    "mnemonic": "助记词",
+    "copied": "{}已复制",
+    "backup_error": "标记备份完成失败: {}",
+    "skip_dialog": {
+      "title": "跳过备份？",
+      "message": "如果丢失助记词，您将无法找回钱包。确定要跳过备份吗？",
+      "skip": "跳过",
+      "backup": "立即备份"
+    },
+    "exit_dialog": {
+      "title": "退出备份？",
+      "message": "如果现在退出，您需要稍后备份助记词。确定要退出吗？",
+      "cancel": "取消",
+      "confirm": "退出"
+    }
+  },
+  "mnemonic_notice": {
+    "title": "助记词备份",
+    "warning_title": "重要提示",
+    "warning_description": "请在继续之前仔细阅读",
+    "warning_item1_title": "安全性",
+    "warning_item1_description": "请确保助记词的安全",
+    "warning_item2_title": "警告",
+    "warning_item2_description": "切勿与他人分享助记词",
+    "warning_item3_title": "备份",
+    "warning_item3_description": "请务必备份您的助记词",
+    "understand_loss": "我了解如果丢失助记词，钱包将无法恢复",
+    "understand_sharing": "我了解分享助记词的风险",
+    "next_button": "下一步",
+    "later_button": "稍后备份"
+  },
+  "mnemonic_page": {
+    "title": "备份钱包",
+    "instruction": "请按顺序写下这12个词并妥善保管。这是您在丢失设备时恢复钱包的唯一方式。",
+    "warning": "切勿与任何人分享您的恢复短语。拥有这些词的人可以访问您的钱包和资金。",
+    "show_mnemonic": "显示恢复短语",
+    "copy_mnemonic": "复制到剪贴板",
+    "copied": "恢复短语已复制到剪贴板",
+    "confirm_backup": "确认备份",
+    "backup_updated": "钱包备份确认成功",
+    "backup_error": "更新备份状态失败：{}"
+  },
+  "token_detail": {
+    "title": "代币详情",
+    "usd_value": "≈ ${} 美元",
+    "frozen": "冻结",
+    "market_price": "市场价格",
+    "price_usd": "${} 美元",
+    "all": "全部",
+    "incoming": "转入",
+    "outgoing": "转出",
+    "transfer": "转账",
+    "receive": "接收",
+    "no_transactions": "没有找到交易记录？",
+    "view_explorer": "在区块浏览器中查看",
+    "transaction_history": "交易历史",
+    "transaction_type": "交易类型",
+    "transaction_status": "状态",
+    "transaction_amount": "金额",
+    "transaction_timestamp": "时间",
+    "transaction_success": "成功",
+    "transaction_failed": "失败",
+    "received": "已收到",
+    "sent": "已发送",
+    "success": "成功"
+  },
+  "transfer": {
+    "title": "转账",
+    "receive_address": "收款地址",
+    "address_hint": "请输入或长按粘贴地址",
+    "amount": "转账金额",
+    "available": "可用 {} {}",
+    "amount_hint": "输入{}数量",
+    "all": "全部",
+    "network_fee": "网络费",
+    "estimated": "预计",
+    "confirm": "确认",
+    "address_scanned": "地址扫描成功",
+    "scan_qr_hint": "将二维码对准扫描框",
+    "qr_scan_hint": "将二维码对准扫描框"
+  },
+  "wallet_detail": {
+    "title": "钱包详情",
+    "default_name": "我的钱包",
+    "fingerprint_payment": "指纹支付",
+    "not_enabled": "未启用",
+    "change_password": "修改密码",
+    "reset_password": "重置密码",
+    "backup_mnemonic": "备份助记词",
+    "export_private_key": "导出私钥",
+    "permission_management": "权限管理",
+    "whitelist": "白名单",
+    "delete": "删除钱包",
+    "mnemonic_error": "加载助记词失败: {}",
+    "not_backed_up": "未备份",
+    "wallet_address": "钱包地址",
+    "copied": "已复制",
+    "edit_name": {
+      "title": "编辑钱包名称",
+      "hint": "请输入钱包名称",
+      "cancel": "取消",
+      "confirm": "保存",
+      "empty_error": "钱包名称不能为空",
+      "success": "钱包名称更新成功",
+      "error": "更新钱包名称失败: {}"
+    },
+    "delete_dialog": {
+      "title": "删除钱包",
+      "message": "确定要删除此钱包吗？此操作无法撤销。",
+      "password_hint": "请输入钱包密码",
+      "password_error": "密码错误",
+      "cancel": "取消",
+      "confirm": "确认"
+    }
+  },
+  "private_key": {
+    "title": "私钥",
+    "warning": "警告",
+    "warning_description": "请勿与任何人分享您的私钥。任何人获得您的私钥都将完全控制您的钱包。",
+    "private_key": "私钥",
+    "close": "关闭",
+    "copied": "私钥已复制到剪贴板"
+  },
+  "receive": {
+    "title": "收款",
+    "scan_qr": "扫描二维码向我付款",
+    "supported_token": "仅支持 {} 转账",
+    "wallet_address": "钱包地址",
+    "address_copied": "钱包地址已复制",
+    "warning": "注意：请确认转入的代币是否正确，错误的代币转入可能无法找回。"
+  },
+  "trade": {
+    "title": "闪兑",
+    "from": "发送",
+    "to": "接收（预估）",
+    "balance": "全部 {0}",
+    "market": "波场",
+    "enter_amount": "请输入兑换数量",
+    "exchange_rate": "兑换价格",
+    "min_received": "最少接收数量",
+    "slippage": "滑点",
+    "fee": "手续费",
+    "route": "兑换路径"
+  },
+  "market": {
+    "volume_24h": "24h成交额",
+    "market_cap": "市值",
+    "total_supply": "总量",
+    "holders": "持有人数",
+    "k_line": "K线",
+    "depth": "深度",
+    "info": "简介",
+    "no_data": "暂无数据",
+    "coming_soon": "即将上线",
+    "timeout_error": "请求超时，请重试",
+    "fetch_error": "获取数据失败，请重试"
+  }
+} 

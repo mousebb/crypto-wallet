@@ -1,0 +1,61 @@
+name: crypto_wallet
+description: A new Flutter project for wallet management.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.3.0
+  sqflite_common_ffi: ^2.3.0+2
+  path: ^1.8.3
+  path_provider: ^2.1.2
+  shared_preferences: ^2.5.3
+  provider: ^6.0.5
+  bip39: ^1.0.6
+  web3dart: ^2.7.1
+  webview_flutter: ^4.4.2
+  hex: ^0.2.0
+  http: ^1.1.0
+  crypto: ^3.0.3
+  pointycastle: ^3.7.3
+  bip32: ^2.0.0
+  qr_flutter: ^4.1.0
+  image_picker: ^1.0.4
+  mobile_scanner: ^3.5.6
+  easy_localization: ^3.0.7+1
+  k_chart: ^0.7.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+  mockito: ^5.4.4
+  build_runner: ^2.4.7
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/trx_logo.png"
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: "assets/images/trx_logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/translations/
+    - assets/images/
+    - assets/images/wallet_guide.png
+    - assets/images/btc_logo.png
+    - assets/images/eth_logo.png
+    - assets/images/trx_logo.png
+    - assets/images/eth_logo.png
+    - assets/images/btc_logo.png
+    - assets/images/bnb_logo.png
+    - assets/images/usdt_logo.png
+    - assets/dummy_kline_data.json
