@@ -101,7 +101,7 @@ flutter run
 
 ## Contributing
 
-This is a private repository. Please contact the repository owner for contribution guidelines.
+Contributions are welcome. Please open an issue to discuss larger changes, or submit a pull request for smaller fixes and improvements.
 
 ## License
 
